@@ -17,7 +17,7 @@ public class GuruAstral {
         int anoAtual = hoje.get(Calendar.YEAR);
 
         // Obtendo os dados do usuário
-        System.out.println("Digite seu nome completo: ");
+        System.out.println("Digite seu Nome Completo: ");
         String nome = ler.nextLine();
         if (nome.length() >= 8) {
             System.out.println("Olá, " + nome + "!");
